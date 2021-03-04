@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.yellow {
+  width: 400px;
+  height: 100px;
+  background-color: #ffce33;
+  display: flex;
+  align-items: center;
+}
+
+.library_bar {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+}
+
+.library {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.white {
+  width: 400px;
+  height: 800px;
+  padding-top: 45px;
+  padding-left: 20px;
+}
+
+.search_bar {
+  background-color: white;
+  width: 320px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  top: 80px;
+  box-shadow: 0px 5px 5px rgb(207, 203, 203);
+  margin-left: 35px;
+}
+
+.search {
+  color: grey;
+  width: 260px;
+  margin-left: 20px;
+}
+
+.main {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.main_book {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.chunsun {
+  width: 120px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.book_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.book_title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4b4b4b;
+}
+
+.book_writer {
+  font-size: 15px;
+  color: #858282;
+}
+
+.book_rate {
+  color: #ffce33;
+}
+
+.book_genre {
+  display: flex;
+  justify-content: space-between;
+}
+
+.genre {
+  width: 70px;
+  height: 30px;
+  background-color: rgb(233, 228, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.genre > span {
+  font-weight: bold;
+}
+
+.book_buy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book_mark {
+  width: 30px;
+  height: 30px;
+  background-color: #ffce33;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book_booking {
+  width: 100px;
+  height: 30px;
+  background-color: #0d0d0d;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book_booking > span {
+  color: white;
+  font-size: 13px;
+}
+
+.books_list {
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.items {
+  margin: 0px 30px 0px 10px;
+  flex-wrap: nowrap;
+}
+
+.books_photo {
+  width: 70px;
+  height: 110px;
+  border-radius: 10px;
+}
